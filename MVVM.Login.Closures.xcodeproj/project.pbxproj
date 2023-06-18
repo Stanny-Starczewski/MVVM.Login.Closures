@@ -19,6 +19,7 @@
 		1759AC4A29A1080E006BC50A /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759AC4229A1080E006BC50A /* LoginError.swift */; };
 		1759AC4B29A1080E006BC50A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759AC4329A1080E006BC50A /* LoginModel.swift */; };
 		1759AC4C29A1080E006BC50A /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759AC4429A1080E006BC50A /* Credentials.swift */; };
+		29A472B62A3ED97C00455625 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A472B52A3ED97C00455625 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1759AC4229A1080E006BC50A /* LoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		1759AC4329A1080E006BC50A /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		1759AC4429A1080E006BC50A /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		29A472B52A3ED97C00455625 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1759AC4029A1080E006BC50A /* UIViewController+hideKeyboard.swift */,
+				29A472B52A3ED97C00455625 /* Colors.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1759AC4629A1080E006BC50A /* LoginViewController.swift in Sources */,
+				29A472B62A3ED97C00455625 /* Colors.swift in Sources */,
 				1759AC2629A106FB006BC50A /* AppDelegate.swift in Sources */,
 				1759AC4C29A1080E006BC50A /* Credentials.swift in Sources */,
 				1759AC4929A1080E006BC50A /* UIViewController+hideKeyboard.swift in Sources */,

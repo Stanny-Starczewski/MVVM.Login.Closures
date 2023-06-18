@@ -9,6 +9,7 @@ final class LoginViewController: UIViewController {
     private let passwordTextField = UITextField()
     private let errorLabel = UILabel()
     private let loginButton = UIButton()
+    private let colors = Colors()
 
     private var viewModel: LoginViewModel?
     
@@ -64,7 +65,7 @@ final class LoginViewController: UIViewController {
     }
     
     private func setupUI() {
-        view.backgroundColor = .white
+        view.backgroundColor = colors.viewBackgroundColor
         
         [loginTextField, passwordTextField, loginButton].forEach { $0.layer.cornerRadius = 8 }
         
