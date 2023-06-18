@@ -10,4 +10,6 @@ final class Colors {
             return UIColor(red: 0.8, green: 0.5, blue: 0.8, alpha: 1)   // тёмный режим
         }
     }
+    
+    let orange = UIColor(named: "Orange") 
 }

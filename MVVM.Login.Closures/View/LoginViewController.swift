@@ -43,7 +43,7 @@ final class LoginViewController: UIViewController {
     
     private func setLoginButton(enabled: Bool) {
         loginButton.isUserInteractionEnabled = enabled
-        loginButton.backgroundColor = enabled ? .orange : colors.buttonDisabledColor
+        loginButton.backgroundColor = enabled ? colors.orange : colors.buttonDisabledColor
     }
     
     private func setError(_ message: String?) {
